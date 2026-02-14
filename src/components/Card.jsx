@@ -16,7 +16,7 @@ const Card = ({ onYes }) => {
 
             <div className="mb-6 relative w-full aspect-square md:aspect-video rounded-2xl overflow-hidden shadow-inner border-2 border-valentine-bg bg-valentine-bg flex items-center justify-center">
                 <img
-                    src="/cute-ask.gif"
+                    src={`${import.meta.env.BASE_URL}cute-ask.gif`}
                     alt="Cute Bear"
                     className="w-50% h-full"
                 />

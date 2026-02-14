@@ -14,7 +14,7 @@ const Success = () => {
 
             <div className="w-full aspect-video bg-valentine-bg rounded-2xl overflow-hidden shadow-inner mb-16">
                 <img
-                    src="/cat-kiss.gif"
+                    src={`${import.meta.env.BASE_URL}cat-kiss.gif`}
                     alt="Cat Kissing"
                     className="w-full h-full object-cover"
                 />
